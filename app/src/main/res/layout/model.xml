@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    card_view:cardCornerRadius="10dp"
+    android:layout_margin="10dp"
+    card_view:cardElevation="5dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_restaurant_green_900_24dp"
+                />
+            <TextView
+                android:id="@+id/Food_Item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textSize="12sp"
+                android:padding="10dp"
+                android:textColor="@android:color/white"
+                android:textAlignment="viewStart"
+                android:textAllCaps="true"
+                android:layout_weight="10"
+                android:textAppearance="?attr/textAppearanceLargePopupMenu"
+                android:textStyle="bold" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            card_view:border_width="5dp"
+            android:src="@drawable/placeholder"
+            android:id="@+id/Food_Image"
+            android:contentDescription="@string/food" />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/Food_Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:textAlignment="viewStart"
+        android:textAppearance="?attr/textAppearanceLargePopupMenu" />
+</LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

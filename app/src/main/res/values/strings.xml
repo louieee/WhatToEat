@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">What To Eat 2</string>
+    <string name = "Open">Open</string>
+    <string name ="Close">Close</string>
+    <string name="decide">DECIDE</string>
+    <string name="question">WHAT DO YOU WANT TO EAT?</string>
+    <string name="food">food</string>
+</resources>

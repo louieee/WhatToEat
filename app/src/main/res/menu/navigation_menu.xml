@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:id ="@+id/food_list" android:title ="View Food List"
+        android:icon="@drawable/ic_view_list_yellow_900_24dp"/>
+    <item android:id ="@+id/add_food" android:title ="Add Food"
+        android:icon="@drawable/ic_add_circle_yellow_900_24dp"/>
+    <item android:id ="@+id/exit" android:title ="Exit"
+        android:icon="@drawable/ic_close_yellow_900_24dp"/>
+
+</menu>
